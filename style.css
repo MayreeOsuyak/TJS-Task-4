@@ -3,10 +3,13 @@
 .container{
     padding: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px auto;
     align-content: center;
+
     
 }
  
+
 input[type=submit] {
     background-color: blue;
     color: white;
@@ -24,19 +27,20 @@ input[type=submit] {
     border: 1px solid black;
   }
 
- html,body {
-  height:100%;
-  width:100%;
+  * {
   margin:0;
+  padding: 0;
+  box-sizing: border-box;
  } 
-body {
+body { 
   display:flex;
 }
 form {
-  margin:auto;
+  margin:10px auto;
+  
 }
 #college{
-    width: 100%;
+    width: auto;
     padding: 10px;
     margin: 5px 0 22px 0;
     border-radius: 5px;
